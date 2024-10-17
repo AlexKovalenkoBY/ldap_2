@@ -27,15 +27,17 @@ public class WebSecurityConfig {
 	@Autowired
 	public void configure(AuthenticationManagerBuilder auth) throws Exception {
 		auth
-			.ldapAuthentication()
-				.userDnPatterns("uid={0},ou=people")
-				.groupSearchBase("ou=groups")
-				.contextSource()
-					.url("ldap://localhost:8389/dc=springframework,dc=org")
-					.and()
-				.passwordCompare()
-					.passwordEncoder(new BCryptPasswordEncoder())
-					.passwordAttribute("userPassword");
+		.ldapAuthentication()
+			 .userSearchBase("dc=test,dc=bpab,dc=internal") // База поиска пользователей
+			.userSearchFilter("(uid={0})") // Фильтр для поиска пользователя по uid и контейнерам
+			  .groupSearchBase("dc=test,dc=bpab,dc=internal") // База поиска групп
+			.groupSearchFilter("uniqueMember={0}") // Фильтр для поиска групп
+			.contextSource()
+			.url("ldap://localhost:8389")
+				.and()
+			.passwordCompare()
+				// .passwordEncoder(new BCryptPasswordEncoder())
+				.passwordAttribute("userPassword");
 	}
 
 }

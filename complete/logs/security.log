@@ -1,0 +1,647 @@
+2024-10-17 15:00:35 INFO  o.s.s.l.DefaultSpringSecurityContextSource - Configure with URL ldap://localhost:8389 and root DN 
+2024-10-17 15:00:35 WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-10-17 15:00:35 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@613f7eb7, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@565aa4ac, org.springframework.security.web.context.SecurityContextHolderFilter@2dafae61, org.springframework.security.web.header.HeaderWriterFilter@73c48264, org.springframework.web.filter.CorsFilter@587c5c1, org.springframework.security.web.csrf.CsrfFilter@19e21f89, org.springframework.security.web.authentication.logout.LogoutFilter@11787b64, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@29f3c438, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@68b7d0ef, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@528c8c1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@66e17eff, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1bbddada, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1f78d415, org.springframework.security.web.access.ExceptionTranslationFilter@6b2dd3df, org.springframework.security.web.access.intercept.AuthorizationFilter@40717ed]
+2024-10-17 15:01:00 DEBUG o.s.security.web.FilterChainProxy - Securing GET /
+2024-10-17 15:01:00 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-10-17 15:01:00 DEBUG o.s.s.w.s.HttpSessionRequestCache - Saved request http://127.0.0.1:8080/?continue to session
+2024-10-17 15:01:00 DEBUG o.s.s.web.DefaultRedirectStrategy - Redirecting to http://127.0.0.1:8080/login
+2024-10-17 15:01:00 DEBUG o.s.security.web.FilterChainProxy - Securing GET /login
+2024-10-17 15:01:01 DEBUG o.s.security.web.FilterChainProxy - Securing GET /favicon.ico
+2024-10-17 15:01:01 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-10-17 15:01:01 DEBUG o.s.s.web.DefaultRedirectStrategy - Redirecting to http://127.0.0.1:8080/login
+2024-10-17 15:01:01 DEBUG o.s.security.web.FilterChainProxy - Securing GET /login
+2024-10-17 15:01:08 DEBUG o.s.security.web.FilterChainProxy - Securing POST /login
+2024-10-17 15:01:08 DEBUG o.s.s.l.a.PasswordComparisonAuthenticator - Failed to retrieve user with any user DNs []
+2024-10-17 15:01:08 DEBUG o.s.s.web.DefaultRedirectStrategy - Redirecting to /login?error
+2024-10-17 15:01:08 DEBUG o.s.security.web.FilterChainProxy - Securing GET /login?error
+2024-10-17 15:01:09 DEBUG o.s.security.web.FilterChainProxy - Securing GET /favicon.ico
+2024-10-17 15:01:09 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-10-17 15:01:09 DEBUG o.s.s.web.DefaultRedirectStrategy - Redirecting to http://127.0.0.1:8080/login
+2024-10-17 15:01:09 DEBUG o.s.security.web.FilterChainProxy - Securing GET /login
+2024-10-17 15:02:29 INFO  o.s.s.l.DefaultSpringSecurityContextSource - Configure with URL ldap://localhost:8389 and root DN 
+2024-10-17 15:02:29 WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-10-17 15:02:29 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5ef85555, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5bcec67e, org.springframework.security.web.context.SecurityContextHolderFilter@5d1b1c2a, org.springframework.security.web.header.HeaderWriterFilter@6bbab114, org.springframework.web.filter.CorsFilter@2dafae61, org.springframework.security.web.csrf.CsrfFilter@91da29b, org.springframework.security.web.authentication.logout.LogoutFilter@47acd13b, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6b2dd3df, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@36790bec, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@7a2fce12, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@25f61c2c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@77429040, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@66e17eff, org.springframework.security.web.access.ExceptionTranslationFilter@7ebe2e47, org.springframework.security.web.access.intercept.AuthorizationFilter@315c081]
+2024-10-17 15:03:02 INFO  o.s.s.l.DefaultSpringSecurityContextSource - Configure with URL ldap://localhost:8389 and root DN 
+2024-10-17 15:03:02 WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-10-17 15:03:02 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@411cd156, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3c770db4, org.springframework.security.web.context.SecurityContextHolderFilter@7c0f28f8, org.springframework.security.web.header.HeaderWriterFilter@7f353a0f, org.springframework.web.filter.CorsFilter@3e046e39, org.springframework.security.web.csrf.CsrfFilter@1dad01fe, org.springframework.security.web.authentication.logout.LogoutFilter@a6e4897, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4bc6da03, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@ca8ef3a, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@61cda923, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@467b0f6e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@420cd102, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@46fc522d, org.springframework.security.web.access.ExceptionTranslationFilter@481558ce, org.springframework.security.web.access.intercept.AuthorizationFilter@718fd7c1]
+2024-10-17 15:03:07 DEBUG o.s.security.web.FilterChainProxy - Securing GET /
+2024-10-17 15:03:07 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-10-17 15:03:07 DEBUG o.s.s.w.s.HttpSessionRequestCache - Saved request http://127.0.0.1:8080/?continue to session
+2024-10-17 15:03:07 DEBUG o.s.s.web.DefaultRedirectStrategy - Redirecting to http://127.0.0.1:8080/login
+2024-10-17 15:03:07 DEBUG o.s.security.web.FilterChainProxy - Securing GET /login
+2024-10-17 15:03:08 DEBUG o.s.security.web.FilterChainProxy - Securing GET /favicon.ico
+2024-10-17 15:03:08 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-10-17 15:03:08 DEBUG o.s.s.web.DefaultRedirectStrategy - Redirecting to http://127.0.0.1:8080/login
+2024-10-17 15:03:08 DEBUG o.s.security.web.FilterChainProxy - Securing GET /login
+2024-10-17 15:03:15 DEBUG o.s.security.web.FilterChainProxy - Securing POST /login
+2024-10-17 15:03:15 DEBUG o.s.s.l.a.PasswordComparisonAuthenticator - Failed to retrieve user with any user DNs []
+2024-10-17 15:03:15 DEBUG o.s.s.web.DefaultRedirectStrategy - Redirecting to /login?error
+2024-10-17 15:03:15 DEBUG o.s.security.web.FilterChainProxy - Securing GET /login?error
+2024-10-17 15:03:15 DEBUG o.s.security.web.FilterChainProxy - Securing GET /favicon.ico
+2024-10-17 15:03:15 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-10-17 15:03:15 DEBUG o.s.s.web.DefaultRedirectStrategy - Redirecting to http://127.0.0.1:8080/login
+2024-10-17 15:03:15 DEBUG o.s.security.web.FilterChainProxy - Securing GET /login
+2024-10-17 15:03:53 INFO  o.s.s.l.DefaultSpringSecurityContextSource - Configure with URL ldap://localhost:8389 and root DN 
+2024-10-17 15:03:53 WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-10-17 15:03:53 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1c8f6c66, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@552cede7, org.springframework.security.web.context.SecurityContextHolderFilter@1084ac45, org.springframework.security.web.header.HeaderWriterFilter@6975fb1c, org.springframework.web.filter.CorsFilter@1b7f06c7, org.springframework.security.web.csrf.CsrfFilter@7ba93755, org.springframework.security.web.authentication.logout.LogoutFilter@706ddbc8, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4a9a878, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@4cc7d00d, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@151732fb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6ea246af, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1b90fee4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@729c8063, org.springframework.security.web.access.ExceptionTranslationFilter@4684240f, org.springframework.security.web.access.intercept.AuthorizationFilter@36bed37a]
+2024-10-17 15:03:57 DEBUG o.s.security.web.FilterChainProxy - Securing GET /login?error
+2024-10-17 15:03:57 DEBUG o.s.security.web.FilterChainProxy - Securing GET /favicon.ico
+2024-10-17 15:03:57 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-10-17 15:03:57 DEBUG o.s.s.web.DefaultRedirectStrategy - Redirecting to http://127.0.0.1:8080/login
+2024-10-17 15:03:57 DEBUG o.s.security.web.FilterChainProxy - Securing GET /login
+2024-10-17 15:04:06 DEBUG o.s.security.web.FilterChainProxy - Securing POST /login
+2024-10-17 15:04:06 DEBUG o.s.s.l.a.PasswordComparisonAuthenticator - Failed to retrieve user with any user DNs []
+2024-10-17 15:04:06 DEBUG o.s.s.web.DefaultRedirectStrategy - Redirecting to /login?error
+2024-10-17 15:04:06 DEBUG o.s.security.web.FilterChainProxy - Securing GET /login?error
+2024-10-17 15:04:06 DEBUG o.s.security.web.FilterChainProxy - Securing GET /favicon.ico
+2024-10-17 15:04:06 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-10-17 15:04:06 DEBUG o.s.s.web.DefaultRedirectStrategy - Redirecting to http://127.0.0.1:8080/login
+2024-10-17 15:04:06 DEBUG o.s.security.web.FilterChainProxy - Securing GET /login
+2024-10-17 15:04:15 DEBUG o.s.security.web.FilterChainProxy - Securing POST /login
+2024-10-17 15:04:15 DEBUG o.s.s.l.a.PasswordComparisonAuthenticator - Failed to retrieve user with any user DNs []
+2024-10-17 15:04:15 DEBUG o.s.s.web.DefaultRedirectStrategy - Redirecting to /login?error
+2024-10-17 15:04:15 DEBUG o.s.security.web.FilterChainProxy - Securing GET /login?error
+2024-10-17 15:04:15 DEBUG o.s.security.web.FilterChainProxy - Securing GET /favicon.ico
+2024-10-17 15:04:15 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-10-17 15:04:15 DEBUG o.s.s.web.DefaultRedirectStrategy - Redirecting to http://127.0.0.1:8080/login
+2024-10-17 15:04:15 DEBUG o.s.security.web.FilterChainProxy - Securing GET /login
+2024-10-17 15:07:25 INFO  o.s.s.l.DefaultSpringSecurityContextSource - Configure with URL ldap://localhost:8389/dc=test,dc=bpab,dc=internal and root DN dc=test,dc=bpab,dc=internal
+2024-10-17 15:07:25 WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-10-17 15:07:25 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@764b14b8, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@202d9236, org.springframework.security.web.context.SecurityContextHolderFilter@7e3d7dd, org.springframework.security.web.header.HeaderWriterFilter@40ef0af8, org.springframework.web.filter.CorsFilter@1f782c05, org.springframework.security.web.csrf.CsrfFilter@2cca611f, org.springframework.security.web.authentication.logout.LogoutFilter@5d512ddb, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@68b7d0ef, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@d7bbf12, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@6d6ac396, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@413bef78, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7f7c420c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@432af457, org.springframework.security.web.access.ExceptionTranslationFilter@38291795, org.springframework.security.web.access.intercept.AuthorizationFilter@41bfa9e9]
+2024-10-17 15:16:38 INFO  o.s.s.l.DefaultSpringSecurityContextSource - Configure with URL ldap://localhost:8389/dc=test,dc=bpab,dc=internal and root DN dc=test,dc=bpab,dc=internal
+2024-10-17 15:16:38 INFO  o.s.s.l.u.DefaultLdapAuthoritiesPopulator - Will perform group search from the context source base since groupSearchBase is empty.
+2024-10-17 15:16:39 WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-10-17 15:16:39 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@59838256, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@131a7516, org.springframework.security.web.context.SecurityContextHolderFilter@1dad01fe, org.springframework.security.web.header.HeaderWriterFilter@58ae402b, org.springframework.web.filter.CorsFilter@5ae15, org.springframework.security.web.csrf.CsrfFilter@7bdf61ad, org.springframework.security.web.authentication.logout.LogoutFilter@474179fa, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@e9474f, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@259b85d6, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@577536e0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3e3cd6fe, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@68b734a8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@12219f6a, org.springframework.security.web.access.ExceptionTranslationFilter@e91b4f4, org.springframework.security.web.access.intercept.AuthorizationFilter@62b475e2]
+2024-10-17 15:16:42 DEBUG o.s.security.web.FilterChainProxy - Securing GET /
+2024-10-17 15:16:42 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-10-17 15:16:42 DEBUG o.s.s.w.s.HttpSessionRequestCache - Saved request http://127.0.0.1:8080/?continue to session
+2024-10-17 15:16:42 DEBUG o.s.s.web.DefaultRedirectStrategy - Redirecting to http://127.0.0.1:8080/login
+2024-10-17 15:16:42 DEBUG o.s.security.web.FilterChainProxy - Securing GET /login
+2024-10-17 15:16:42 DEBUG o.s.security.web.FilterChainProxy - Securing GET /favicon.ico
+2024-10-17 15:16:42 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-10-17 15:16:42 DEBUG o.s.s.web.DefaultRedirectStrategy - Redirecting to http://127.0.0.1:8080/login
+2024-10-17 15:16:42 DEBUG o.s.security.web.FilterChainProxy - Securing GET /login
+2024-10-17 15:16:51 DEBUG o.s.security.web.FilterChainProxy - Securing POST /login
+2024-10-17 15:16:51 DEBUG o.s.s.l.a.PasswordComparisonAuthenticator - Failed to retrieve user with any user DNs []
+2024-10-17 15:16:51 DEBUG o.s.s.a.DefaultAuthenticationEventPublisher - No event was found for the exception org.springframework.security.authentication.InternalAuthenticationServiceException
+2024-10-17 15:16:51 ERROR o.s.s.w.a.UsernamePasswordAuthenticationFilter - An internal error occurred while trying to authenticate the user.
+org.springframework.security.authentication.InternalAuthenticationServiceException: [LDAP: error code 32 - Unable to perform the search because base entry 'dc=test,dc=bpab,dc=internal,dc=test,dc=bpab,dc=internal' does not exist in the server.]
+	at org.springframework.security.ldap.authentication.LdapAuthenticationProvider.doAuthentication(LdapAuthenticationProvider.java:190)
+	at org.springframework.security.ldap.authentication.AbstractLdapAuthenticationProvider.authenticate(AbstractLdapAuthenticationProvider.java:79)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:182)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:201)
+	at org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter.attemptAuthentication(UsernamePasswordAuthenticationFilter.java:85)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:231)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:221)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:131)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:195)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:230)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.springframework.ldap.NameNotFoundException: [LDAP: error code 32 - Unable to perform the search because base entry 'dc=test,dc=bpab,dc=internal,dc=test,dc=bpab,dc=internal' does not exist in the server.]
+	at org.springframework.ldap.support.LdapUtils.convertLdapException(LdapUtils.java:185)
+	at org.springframework.ldap.core.LdapTemplate.executeWithContext(LdapTemplate.java:807)
+	at org.springframework.ldap.core.LdapTemplate.executeReadOnly(LdapTemplate.java:790)
+	at org.springframework.security.ldap.SpringSecurityLdapTemplate.searchForSingleEntry(SpringSecurityLdapTemplate.java:260)
+	at org.springframework.security.ldap.search.FilterBasedLdapUserSearch.searchForUser(FilterBasedLdapUserSearch.java:100)
+	at org.springframework.security.ldap.authentication.PasswordComparisonAuthenticator.authenticate(PasswordComparisonAuthenticator.java:90)
+	at org.springframework.security.ldap.authentication.LdapAuthenticationProvider.doAuthentication(LdapAuthenticationProvider.java:174)
+	... 68 common frames omitted
+Caused by: javax.naming.NameNotFoundException: [LDAP: error code 32 - Unable to perform the search because base entry 'dc=test,dc=bpab,dc=internal,dc=test,dc=bpab,dc=internal' does not exist in the server.]
+	at java.naming/com.sun.jndi.ldap.LdapCtx.mapErrorCode(LdapCtx.java:3285)
+	at java.naming/com.sun.jndi.ldap.LdapCtx.processReturnCode(LdapCtx.java:3206)
+	at java.naming/com.sun.jndi.ldap.LdapCtx.processReturnCode(LdapCtx.java:2997)
+	at java.naming/com.sun.jndi.ldap.LdapCtx.searchAux(LdapCtx.java:1876)
+	at java.naming/com.sun.jndi.ldap.LdapCtx.c_search(LdapCtx.java:1799)
+	at java.naming/com.sun.jndi.ldap.LdapCtx.c_search(LdapCtx.java:1816)
+	at java.naming/com.sun.jndi.toolkit.ctx.ComponentDirContext.p_search(ComponentDirContext.java:418)
+	at java.naming/com.sun.jndi.toolkit.ctx.PartialCompositeDirContext.search(PartialCompositeDirContext.java:396)
+	at java.naming/javax.naming.directory.InitialDirContext.search(InitialDirContext.java:388)
+	at org.springframework.security.ldap.SpringSecurityLdapTemplate.searchForSingleEntryInternal(SpringSecurityLdapTemplate.java:271)
+	at org.springframework.security.ldap.SpringSecurityLdapTemplate.lambda$searchForSingleEntry$3(SpringSecurityLdapTemplate.java:260)
+	at org.springframework.ldap.core.LdapTemplate.executeWithContext(LdapTemplate.java:804)
+	... 73 common frames omitted
+2024-10-17 15:16:51 DEBUG o.s.s.web.DefaultRedirectStrategy - Redirecting to /login?error
+2024-10-17 15:16:51 DEBUG o.s.security.web.FilterChainProxy - Securing GET /login?error
+2024-10-17 15:16:51 DEBUG o.s.security.web.FilterChainProxy - Securing GET /favicon.ico
+2024-10-17 15:16:51 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-10-17 15:16:51 DEBUG o.s.s.web.DefaultRedirectStrategy - Redirecting to http://127.0.0.1:8080/login
+2024-10-17 15:16:51 DEBUG o.s.security.web.FilterChainProxy - Securing GET /login
+2024-10-17 15:17:09 INFO  o.s.s.l.DefaultSpringSecurityContextSource - Configure with URL ldap://localhost:8389/ and root DN 
+2024-10-17 15:17:09 INFO  o.s.s.l.u.DefaultLdapAuthoritiesPopulator - Will perform group search from the context source base since groupSearchBase is empty.
+2024-10-17 15:17:09 WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-10-17 15:17:09 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3ba1308d, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5a08b084, org.springframework.security.web.context.SecurityContextHolderFilter@4684240f, org.springframework.security.web.header.HeaderWriterFilter@115ca7de, org.springframework.web.filter.CorsFilter@235c997d, org.springframework.security.web.csrf.CsrfFilter@31f295b6, org.springframework.security.web.authentication.logout.LogoutFilter@628b819d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6f31df32, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@1b90fee4, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@36bed37a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6975fb1c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@327e5be5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4a9a878, org.springframework.security.web.access.ExceptionTranslationFilter@63f6bed1, org.springframework.security.web.access.intercept.AuthorizationFilter@2ad99cf3]
+2024-10-17 15:17:28 DEBUG o.s.security.web.FilterChainProxy - Securing POST /login
+2024-10-17 15:17:28 DEBUG o.s.security.web.csrf.CsrfFilter - Invalid CSRF token found for http://127.0.0.1:8080/login
+2024-10-17 15:17:28 DEBUG o.s.s.w.a.AccessDeniedHandlerImpl - Responding with 403 status code
+2024-10-17 15:17:28 DEBUG o.s.security.web.FilterChainProxy - Securing POST /error
+2024-10-17 15:17:28 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-10-17 15:17:28 DEBUG o.s.s.web.DefaultRedirectStrategy - Redirecting to http://127.0.0.1:8080/login
+2024-10-17 15:17:28 DEBUG o.s.security.web.FilterChainProxy - Securing GET /login
+2024-10-17 15:17:28 DEBUG o.s.security.web.FilterChainProxy - Securing GET /favicon.ico
+2024-10-17 15:17:28 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-10-17 15:17:28 DEBUG o.s.s.web.DefaultRedirectStrategy - Redirecting to http://127.0.0.1:8080/login
+2024-10-17 15:17:28 DEBUG o.s.security.web.FilterChainProxy - Securing GET /login
+2024-10-17 15:18:01 DEBUG o.s.security.web.FilterChainProxy - Securing POST /login
+2024-10-17 15:18:01 DEBUG o.s.s.l.a.PasswordComparisonAuthenticator - Failed to retrieve user with any user DNs []
+2024-10-17 15:18:01 DEBUG o.s.s.l.SpringSecurityLdapTemplate - Found DN: uid=ben,ou=people,dc=test,dc=bpab,dc=internal
+2024-10-17 15:18:01 DEBUG o.s.s.l.s.FilterBasedLdapUserSearch - Found user 'ben', with FilterBasedLdapUserSearch [searchFilter=(uid={0}); searchBase=dc=test,dc=bpab,dc=internal; scope=subtree; searchTimeLimit=0; derefLinkFlag=false ]
+2024-10-17 15:18:01 DEBUG o.s.s.l.a.PasswordComparisonAuthenticator - Locally matched password attribute 'userPassword' for user 'uid=ben,ou=people,dc=test,dc=bpab,dc=internal'
+2024-10-17 15:18:01 DEBUG o.s.s.l.u.DefaultLdapAuthoritiesPopulator - Found roles from search []
+2024-10-17 15:18:01 DEBUG o.s.s.l.u.DefaultLdapAuthoritiesPopulator - Retrieved authorities for user uid=ben,ou=people,dc=test,dc=bpab,dc=internal
+2024-10-17 15:18:01 DEBUG o.s.s.l.u.LdapUserDetailsMapper - Mapping user details from context with DN uid=ben,ou=people,dc=test,dc=bpab,dc=internal
+2024-10-17 15:18:01 DEBUG o.s.s.l.a.LdapAuthenticationProvider - Authenticated user
+2024-10-17 15:18:01 DEBUG o.s.s.w.a.s.ChangeSessionIdAuthenticationStrategy - Changed session id from CCDDE102ADAC4C5BD270F67CCFD2FDC1
+2024-10-17 15:18:01 DEBUG o.s.s.w.c.CsrfAuthenticationStrategy - Replaced CSRF Token
+2024-10-17 15:18:01 DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=LdapUserDetailsImpl [Dn=uid=ben,ou=people,dc=test,dc=bpab,dc=internal; Username=ben; Password=[PROTECTED]; Enabled=true; AccountNonExpired=true; CredentialsNonExpired=true; AccountNonLocked=true; Granted Authorities=[]], Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=127.0.0.1, SessionId=CCDDE102ADAC4C5BD270F67CCFD2FDC1], Granted Authorities=[]]] to HttpSession [org.apache.catalina.session.StandardSessionFacade@5c45037b]
+2024-10-17 15:18:01 DEBUG o.s.s.w.a.UsernamePasswordAuthenticationFilter - Set SecurityContextHolder to UsernamePasswordAuthenticationToken [Principal=LdapUserDetailsImpl [Dn=uid=ben,ou=people,dc=test,dc=bpab,dc=internal; Username=ben; Password=[PROTECTED]; Enabled=true; AccountNonExpired=true; CredentialsNonExpired=true; AccountNonLocked=true; Granted Authorities=[]], Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=127.0.0.1, SessionId=CCDDE102ADAC4C5BD270F67CCFD2FDC1], Granted Authorities=[]]
+2024-10-17 15:18:01 DEBUG o.s.s.web.DefaultRedirectStrategy - Redirecting to /
+2024-10-17 15:18:01 DEBUG o.s.security.web.FilterChainProxy - Securing GET /
+2024-10-17 15:18:01 DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Retrieved SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=LdapUserDetailsImpl [Dn=uid=ben,ou=people,dc=test,dc=bpab,dc=internal; Username=ben; Password=[PROTECTED]; Enabled=true; AccountNonExpired=true; CredentialsNonExpired=true; AccountNonLocked=true; Granted Authorities=[]], Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=127.0.0.1, SessionId=CCDDE102ADAC4C5BD270F67CCFD2FDC1], Granted Authorities=[]]]
+2024-10-17 15:18:01 DEBUG o.s.security.web.FilterChainProxy - Secured GET /
+2024-10-17 15:18:01 DEBUG o.s.security.web.FilterChainProxy - Securing GET /favicon.ico
+2024-10-17 15:18:01 DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Retrieved SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=LdapUserDetailsImpl [Dn=uid=ben,ou=people,dc=test,dc=bpab,dc=internal; Username=ben; Password=[PROTECTED]; Enabled=true; AccountNonExpired=true; CredentialsNonExpired=true; AccountNonLocked=true; Granted Authorities=[]], Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=127.0.0.1, SessionId=CCDDE102ADAC4C5BD270F67CCFD2FDC1], Granted Authorities=[]]]
+2024-10-17 15:18:01 DEBUG o.s.security.web.FilterChainProxy - Secured GET /favicon.ico
+2024-10-17 15:18:01 DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+2024-10-17 15:18:01 DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Retrieved SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=LdapUserDetailsImpl [Dn=uid=ben,ou=people,dc=test,dc=bpab,dc=internal; Username=ben; Password=[PROTECTED]; Enabled=true; AccountNonExpired=true; CredentialsNonExpired=true; AccountNonLocked=true; Granted Authorities=[]], Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=127.0.0.1, SessionId=CCDDE102ADAC4C5BD270F67CCFD2FDC1], Granted Authorities=[]]]
+2024-10-17 15:18:01 DEBUG o.s.security.web.FilterChainProxy - Secured GET /error
+2024-10-17 15:18:07 DEBUG o.s.security.web.FilterChainProxy - Securing GET /logout
+2024-10-17 15:18:11 DEBUG o.s.security.web.FilterChainProxy - Securing POST /logout
+2024-10-17 15:18:11 DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Retrieved SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=LdapUserDetailsImpl [Dn=uid=ben,ou=people,dc=test,dc=bpab,dc=internal; Username=ben; Password=[PROTECTED]; Enabled=true; AccountNonExpired=true; CredentialsNonExpired=true; AccountNonLocked=true; Granted Authorities=[]], Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=127.0.0.1, SessionId=CCDDE102ADAC4C5BD270F67CCFD2FDC1], Granted Authorities=[]]]
+2024-10-17 15:18:11 DEBUG o.s.s.w.a.logout.LogoutFilter - Logging out [UsernamePasswordAuthenticationToken [Principal=LdapUserDetailsImpl [Dn=uid=ben,ou=people,dc=test,dc=bpab,dc=internal; Username=ben; Password=[PROTECTED]; Enabled=true; AccountNonExpired=true; CredentialsNonExpired=true; AccountNonLocked=true; Granted Authorities=[]], Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=127.0.0.1, SessionId=CCDDE102ADAC4C5BD270F67CCFD2FDC1], Granted Authorities=[]]]
+2024-10-17 15:18:11 DEBUG o.s.s.w.a.l.SecurityContextLogoutHandler - Invalidated session 0E72B0FA25F5305504D7F89B06EE7422
+2024-10-17 15:18:11 DEBUG o.s.s.web.DefaultRedirectStrategy - Redirecting to /login?logout
+2024-10-17 15:18:11 DEBUG o.s.security.web.FilterChainProxy - Securing GET /login?logout
+2024-10-17 15:18:18 DEBUG o.s.security.web.FilterChainProxy - Securing POST /login
+2024-10-17 15:18:18 DEBUG o.s.s.l.a.PasswordComparisonAuthenticator - Failed to retrieve user with any user DNs []
+2024-10-17 15:18:18 DEBUG o.s.s.web.DefaultRedirectStrategy - Redirecting to /login?error
+2024-10-17 15:18:18 DEBUG o.s.security.web.FilterChainProxy - Securing GET /login?error
+2024-10-17 15:19:36 DEBUG o.s.security.web.FilterChainProxy - Securing POST /login
+2024-10-17 15:19:36 DEBUG o.s.s.l.a.PasswordComparisonAuthenticator - Failed to retrieve user with any user DNs []
+2024-10-17 15:19:36 DEBUG o.s.s.l.SpringSecurityLdapTemplate - Found DN: uid=bob,ou=people,dc=test,dc=bpab,dc=internal
+2024-10-17 15:19:36 DEBUG o.s.s.l.s.FilterBasedLdapUserSearch - Found user 'bob', with FilterBasedLdapUserSearch [searchFilter=(uid={0}); searchBase=dc=test,dc=bpab,dc=internal; scope=subtree; searchTimeLimit=0; derefLinkFlag=false ]
+2024-10-17 15:19:36 WARN  o.s.s.c.bcrypt.BCryptPasswordEncoder - Encoded password does not look like BCrypt
+2024-10-17 15:19:36 DEBUG o.s.s.web.DefaultRedirectStrategy - Redirecting to /login?error
+2024-10-17 15:19:36 DEBUG o.s.security.web.FilterChainProxy - Securing GET /login?error
+2024-10-17 15:19:47 DEBUG o.s.security.web.FilterChainProxy - Securing POST /login
+2024-10-17 15:19:47 DEBUG o.s.s.l.a.PasswordComparisonAuthenticator - Failed to retrieve user with any user DNs []
+2024-10-17 15:19:47 DEBUG o.s.s.l.SpringSecurityLdapTemplate - Found DN: uid=bob,ou=people,dc=test,dc=bpab,dc=internal
+2024-10-17 15:19:47 DEBUG o.s.s.l.s.FilterBasedLdapUserSearch - Found user 'bob', with FilterBasedLdapUserSearch [searchFilter=(uid={0}); searchBase=dc=test,dc=bpab,dc=internal; scope=subtree; searchTimeLimit=0; derefLinkFlag=false ]
+2024-10-17 15:19:47 WARN  o.s.s.c.bcrypt.BCryptPasswordEncoder - Encoded password does not look like BCrypt
+2024-10-17 15:19:47 DEBUG o.s.s.web.DefaultRedirectStrategy - Redirecting to /login?error
+2024-10-17 15:19:47 DEBUG o.s.security.web.FilterChainProxy - Securing GET /login?error
+2024-10-17 15:45:41 INFO  o.s.s.l.DefaultSpringSecurityContextSource - Configure with URL ldap://localhost:8389/ and root DN 
+2024-10-17 15:45:41 INFO  o.s.s.l.u.DefaultLdapAuthoritiesPopulator - Will perform group search from the context source base since groupSearchBase is empty.
+2024-10-17 15:45:41 WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-10-17 15:45:42 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3ba1308d, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5a08b084, org.springframework.security.web.context.SecurityContextHolderFilter@4684240f, org.springframework.security.web.header.HeaderWriterFilter@115ca7de, org.springframework.web.filter.CorsFilter@235c997d, org.springframework.security.web.csrf.CsrfFilter@31f295b6, org.springframework.security.web.authentication.logout.LogoutFilter@628b819d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6f31df32, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@1b90fee4, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@36bed37a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6975fb1c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@327e5be5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4a9a878, org.springframework.security.web.access.ExceptionTranslationFilter@63f6bed1, org.springframework.security.web.access.intercept.AuthorizationFilter@2ad99cf3]
+2024-10-17 15:45:50 DEBUG o.s.security.web.FilterChainProxy - Securing POST /login
+2024-10-17 15:45:50 DEBUG o.s.security.web.csrf.CsrfFilter - Invalid CSRF token found for http://127.0.0.1:8080/login
+2024-10-17 15:45:50 DEBUG o.s.s.w.a.AccessDeniedHandlerImpl - Responding with 403 status code
+2024-10-17 15:45:50 DEBUG o.s.security.web.FilterChainProxy - Securing POST /error
+2024-10-17 15:45:50 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-10-17 15:45:50 DEBUG o.s.s.web.DefaultRedirectStrategy - Redirecting to http://127.0.0.1:8080/login
+2024-10-17 15:45:50 DEBUG o.s.security.web.FilterChainProxy - Securing GET /login
+2024-10-17 15:45:57 DEBUG o.s.security.web.FilterChainProxy - Securing GET /login
+2024-10-17 15:45:57 DEBUG o.s.security.web.FilterChainProxy - Securing GET /favicon.ico
+2024-10-17 15:45:57 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-10-17 15:45:57 DEBUG o.s.s.web.DefaultRedirectStrategy - Redirecting to http://127.0.0.1:8080/login
+2024-10-17 15:45:57 DEBUG o.s.security.web.FilterChainProxy - Securing GET /login
+2024-10-17 15:46:02 DEBUG o.s.security.web.FilterChainProxy - Securing POST /login
+2024-10-17 15:46:02 DEBUG o.s.s.l.a.PasswordComparisonAuthenticator - Failed to retrieve user with any user DNs []
+2024-10-17 15:46:02 DEBUG o.s.s.l.SpringSecurityLdapTemplate - Found DN: uid=ben,ou=people,dc=test,dc=bpab,dc=internal
+2024-10-17 15:46:02 DEBUG o.s.s.l.s.FilterBasedLdapUserSearch - Found user 'ben', with FilterBasedLdapUserSearch [searchFilter=(uid={0}); searchBase=dc=test,dc=bpab,dc=internal; scope=subtree; searchTimeLimit=0; derefLinkFlag=false ]
+2024-10-17 15:46:02 DEBUG o.s.s.l.a.PasswordComparisonAuthenticator - Locally matched password attribute 'userPassword' for user 'uid=ben,ou=people,dc=test,dc=bpab,dc=internal'
+2024-10-17 15:46:02 DEBUG o.s.s.l.u.DefaultLdapAuthoritiesPopulator - Found roles from search []
+2024-10-17 15:46:02 DEBUG o.s.s.l.u.DefaultLdapAuthoritiesPopulator - Retrieved authorities for user uid=ben,ou=people,dc=test,dc=bpab,dc=internal
+2024-10-17 15:46:02 DEBUG o.s.s.l.u.LdapUserDetailsMapper - Mapping user details from context with DN uid=ben,ou=people,dc=test,dc=bpab,dc=internal
+2024-10-17 15:46:02 DEBUG o.s.s.l.a.LdapAuthenticationProvider - Authenticated user
+2024-10-17 15:46:02 DEBUG o.s.s.w.a.s.ChangeSessionIdAuthenticationStrategy - Changed session id from 993253FB2EA99E4BA5806890E18343D8
+2024-10-17 15:46:02 DEBUG o.s.s.w.c.CsrfAuthenticationStrategy - Replaced CSRF Token
+2024-10-17 15:46:02 DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=LdapUserDetailsImpl [Dn=uid=ben,ou=people,dc=test,dc=bpab,dc=internal; Username=ben; Password=[PROTECTED]; Enabled=true; AccountNonExpired=true; CredentialsNonExpired=true; AccountNonLocked=true; Granted Authorities=[]], Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=127.0.0.1, SessionId=993253FB2EA99E4BA5806890E18343D8], Granted Authorities=[]]] to HttpSession [org.apache.catalina.session.StandardSessionFacade@647adba0]
+2024-10-17 15:46:02 DEBUG o.s.s.w.a.UsernamePasswordAuthenticationFilter - Set SecurityContextHolder to UsernamePasswordAuthenticationToken [Principal=LdapUserDetailsImpl [Dn=uid=ben,ou=people,dc=test,dc=bpab,dc=internal; Username=ben; Password=[PROTECTED]; Enabled=true; AccountNonExpired=true; CredentialsNonExpired=true; AccountNonLocked=true; Granted Authorities=[]], Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=127.0.0.1, SessionId=993253FB2EA99E4BA5806890E18343D8], Granted Authorities=[]]
+2024-10-17 15:46:02 DEBUG o.s.s.web.DefaultRedirectStrategy - Redirecting to /
+2024-10-17 15:46:02 DEBUG o.s.security.web.FilterChainProxy - Securing GET /
+2024-10-17 15:46:02 DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Retrieved SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=LdapUserDetailsImpl [Dn=uid=ben,ou=people,dc=test,dc=bpab,dc=internal; Username=ben; Password=[PROTECTED]; Enabled=true; AccountNonExpired=true; CredentialsNonExpired=true; AccountNonLocked=true; Granted Authorities=[]], Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=127.0.0.1, SessionId=993253FB2EA99E4BA5806890E18343D8], Granted Authorities=[]]]
+2024-10-17 15:46:02 DEBUG o.s.security.web.FilterChainProxy - Secured GET /
+2024-10-17 15:46:02 DEBUG o.s.security.web.FilterChainProxy - Securing GET /favicon.ico
+2024-10-17 15:46:02 DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Retrieved SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=LdapUserDetailsImpl [Dn=uid=ben,ou=people,dc=test,dc=bpab,dc=internal; Username=ben; Password=[PROTECTED]; Enabled=true; AccountNonExpired=true; CredentialsNonExpired=true; AccountNonLocked=true; Granted Authorities=[]], Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=127.0.0.1, SessionId=993253FB2EA99E4BA5806890E18343D8], Granted Authorities=[]]]
+2024-10-17 15:46:02 DEBUG o.s.security.web.FilterChainProxy - Secured GET /favicon.ico
+2024-10-17 15:46:02 DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+2024-10-17 15:46:02 DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Retrieved SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=LdapUserDetailsImpl [Dn=uid=ben,ou=people,dc=test,dc=bpab,dc=internal; Username=ben; Password=[PROTECTED]; Enabled=true; AccountNonExpired=true; CredentialsNonExpired=true; AccountNonLocked=true; Granted Authorities=[]], Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=127.0.0.1, SessionId=993253FB2EA99E4BA5806890E18343D8], Granted Authorities=[]]]
+2024-10-17 15:46:02 DEBUG o.s.security.web.FilterChainProxy - Secured GET /error
+2024-10-17 15:46:11 DEBUG o.s.security.web.FilterChainProxy - Securing GET /
+2024-10-17 15:46:11 DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Retrieved SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=LdapUserDetailsImpl [Dn=uid=ben,ou=people,dc=test,dc=bpab,dc=internal; Username=ben; Password=[PROTECTED]; Enabled=true; AccountNonExpired=true; CredentialsNonExpired=true; AccountNonLocked=true; Granted Authorities=[]], Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=127.0.0.1, SessionId=993253FB2EA99E4BA5806890E18343D8], Granted Authorities=[]]]
+2024-10-17 15:46:11 DEBUG o.s.security.web.FilterChainProxy - Secured GET /
+2024-10-17 15:46:28 INFO  o.s.s.l.DefaultSpringSecurityContextSource - Configure with URL ldap://localhost:8389/ and root DN 
+2024-10-17 15:46:28 INFO  o.s.s.l.u.DefaultLdapAuthoritiesPopulator - Will perform group search from the context source base since groupSearchBase is empty.
+2024-10-17 15:46:28 WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-10-17 15:46:28 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@151732fb, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@729c8063, org.springframework.security.web.context.SecurityContextHolderFilter@4978777f, org.springframework.security.web.header.HeaderWriterFilter@2e4389ed, org.springframework.web.filter.CorsFilter@40ed1802, org.springframework.security.web.csrf.CsrfFilter@3443e476, org.springframework.security.web.authentication.logout.LogoutFilter@2a7d9b41, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1c8f6c66, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@2349f14d, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@23c767e6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@67bd351e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@468e8565, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@feb098f, org.springframework.security.web.access.ExceptionTranslationFilter@566f1852, org.springframework.security.web.access.intercept.AuthorizationFilter@5c6a5192]
+2024-10-17 15:46:42 DEBUG o.s.security.web.FilterChainProxy - Securing GET /
+2024-10-17 15:46:42 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-10-17 15:46:42 DEBUG o.s.s.w.s.HttpSessionRequestCache - Saved request http://127.0.0.1:8080/?continue to session
+2024-10-17 15:46:42 DEBUG o.s.s.web.DefaultRedirectStrategy - Redirecting to http://127.0.0.1:8080/login
+2024-10-17 15:46:42 DEBUG o.s.security.web.FilterChainProxy - Securing GET /login
+2024-10-17 15:46:52 DEBUG o.s.security.web.FilterChainProxy - Securing POST /login
+2024-10-17 15:46:52 DEBUG o.s.s.l.a.PasswordComparisonAuthenticator - Failed to retrieve user with any user DNs []
+2024-10-17 15:46:52 DEBUG o.s.s.l.SpringSecurityLdapTemplate - Found DN: uid=dkuser,ou=DK-U,ou=8,dc=test,dc=bpab,dc=internal
+2024-10-17 15:46:52 DEBUG o.s.s.l.s.FilterBasedLdapUserSearch - Found user 'dkuser', with FilterBasedLdapUserSearch [searchFilter=(uid={0}); searchBase=dc=test,dc=bpab,dc=internal; scope=subtree; searchTimeLimit=0; derefLinkFlag=false ]
+2024-10-17 15:46:52 WARN  o.s.s.c.bcrypt.BCryptPasswordEncoder - Encoded password does not look like BCrypt
+2024-10-17 15:46:52 DEBUG o.s.s.web.DefaultRedirectStrategy - Redirecting to /login?error
+2024-10-17 15:46:52 DEBUG o.s.security.web.FilterChainProxy - Securing GET /login?error
+2024-10-17 15:48:53 DEBUG o.s.security.web.FilterChainProxy - Securing POST /login
+2024-10-17 15:48:53 DEBUG o.s.s.l.a.PasswordComparisonAuthenticator - Failed to retrieve user with any user DNs []
+2024-10-17 15:48:53 DEBUG o.s.s.l.SpringSecurityLdapTemplate - Found DN: uid=ben,ou=people,dc=test,dc=bpab,dc=internal
+2024-10-17 15:48:53 DEBUG o.s.s.l.s.FilterBasedLdapUserSearch - Found user 'ben', with FilterBasedLdapUserSearch [searchFilter=(uid={0}); searchBase=dc=test,dc=bpab,dc=internal; scope=subtree; searchTimeLimit=0; derefLinkFlag=false ]
+2024-10-17 15:48:54 DEBUG o.s.s.l.a.PasswordComparisonAuthenticator - Locally matched password attribute 'userPassword' for user 'uid=ben,ou=people,dc=test,dc=bpab,dc=internal'
+2024-10-17 15:48:54 DEBUG o.s.s.l.u.DefaultLdapAuthoritiesPopulator - Found roles from search []
+2024-10-17 15:48:54 DEBUG o.s.s.l.u.DefaultLdapAuthoritiesPopulator - Retrieved authorities for user uid=ben,ou=people,dc=test,dc=bpab,dc=internal
+2024-10-17 15:48:54 DEBUG o.s.s.l.u.LdapUserDetailsMapper - Mapping user details from context with DN uid=ben,ou=people,dc=test,dc=bpab,dc=internal
+2024-10-17 15:48:54 DEBUG o.s.s.l.a.LdapAuthenticationProvider - Authenticated user
+2024-10-17 15:48:54 DEBUG o.s.s.w.a.s.ChangeSessionIdAuthenticationStrategy - Changed session id from 2B4836BCC337D47A1BB101CC114FF16F
+2024-10-17 15:48:54 DEBUG o.s.s.w.c.CsrfAuthenticationStrategy - Replaced CSRF Token
+2024-10-17 15:48:54 DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=LdapUserDetailsImpl [Dn=uid=ben,ou=people,dc=test,dc=bpab,dc=internal; Username=ben; Password=[PROTECTED]; Enabled=true; AccountNonExpired=true; CredentialsNonExpired=true; AccountNonLocked=true; Granted Authorities=[]], Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=127.0.0.1, SessionId=2B4836BCC337D47A1BB101CC114FF16F], Granted Authorities=[]]] to HttpSession [org.apache.catalina.session.StandardSessionFacade@33c7133e]
+2024-10-17 15:48:54 DEBUG o.s.s.w.a.UsernamePasswordAuthenticationFilter - Set SecurityContextHolder to UsernamePasswordAuthenticationToken [Principal=LdapUserDetailsImpl [Dn=uid=ben,ou=people,dc=test,dc=bpab,dc=internal; Username=ben; Password=[PROTECTED]; Enabled=true; AccountNonExpired=true; CredentialsNonExpired=true; AccountNonLocked=true; Granted Authorities=[]], Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=127.0.0.1, SessionId=2B4836BCC337D47A1BB101CC114FF16F], Granted Authorities=[]]
+2024-10-17 15:48:54 DEBUG o.s.s.web.DefaultRedirectStrategy - Redirecting to http://127.0.0.1:8080/?continue
+2024-10-17 15:48:54 DEBUG o.s.security.web.FilterChainProxy - Securing GET /?continue
+2024-10-17 15:48:54 DEBUG o.s.s.w.s.HttpSessionRequestCache - Loaded matching saved request http://127.0.0.1:8080/?continue
+2024-10-17 15:48:54 DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository - Retrieved SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=LdapUserDetailsImpl [Dn=uid=ben,ou=people,dc=test,dc=bpab,dc=internal; Username=ben; Password=[PROTECTED]; Enabled=true; AccountNonExpired=true; CredentialsNonExpired=true; AccountNonLocked=true; Granted Authorities=[]], Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=127.0.0.1, SessionId=2B4836BCC337D47A1BB101CC114FF16F], Granted Authorities=[]]]
+2024-10-17 15:48:54 DEBUG o.s.security.web.FilterChainProxy - Secured GET /?continue
+2024-10-17 15:50:29 INFO  o.s.s.l.DefaultSpringSecurityContextSource - Configure with URL ldap://localhost:8389/ and root DN 
+2024-10-17 15:50:29 WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-10-17 15:50:30 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@feb098f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@19e21f89, org.springframework.security.web.context.SecurityContextHolderFilter@468e8565, org.springframework.security.web.header.HeaderWriterFilter@7bc6935c, org.springframework.web.filter.CorsFilter@31e739bf, org.springframework.security.web.csrf.CsrfFilter@19bedeb8, org.springframework.security.web.authentication.logout.LogoutFilter@25f61c2c, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@729c8063, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@716185fe, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@29079032, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7066363, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@47248a48, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7e7743ec, org.springframework.security.web.access.ExceptionTranslationFilter@3513c84c, org.springframework.security.web.access.intercept.AuthorizationFilter@151732fb]
+2024-10-17 15:51:54 DEBUG o.s.security.web.FilterChainProxy - Securing GET /
+2024-10-17 15:51:54 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-10-17 15:51:54 DEBUG o.s.s.w.s.HttpSessionRequestCache - Saved request http://127.0.0.1:8080/?continue to session
+2024-10-17 15:51:54 DEBUG o.s.s.web.DefaultRedirectStrategy - Redirecting to http://127.0.0.1:8080/login
+2024-10-17 15:51:54 DEBUG o.s.security.web.FilterChainProxy - Securing GET /login
+2024-10-17 15:52:02 DEBUG o.s.security.web.FilterChainProxy - Securing POST /login
+2024-10-17 15:52:02 DEBUG o.s.s.l.a.PasswordComparisonAuthenticator - Failed to retrieve user with any user DNs []
+2024-10-17 15:52:02 DEBUG o.s.s.l.SpringSecurityLdapTemplate - Found DN: uid=dkuser,ou=DK-U,ou=8,dc=test,dc=bpab,dc=internal
+2024-10-17 15:52:02 DEBUG o.s.s.l.s.FilterBasedLdapUserSearch - Found user 'dkuser', with FilterBasedLdapUserSearch [searchFilter=(uid={0}); searchBase=dc=test,dc=bpab,dc=internal; scope=subtree; searchTimeLimit=0; derefLinkFlag=false ]
+2024-10-17 15:52:02 WARN  o.s.s.c.bcrypt.BCryptPasswordEncoder - Encoded password does not look like BCrypt
+2024-10-17 15:52:02 DEBUG o.s.s.web.DefaultRedirectStrategy - Redirecting to /login?error
+2024-10-17 15:52:02 DEBUG o.s.security.web.FilterChainProxy - Securing GET /login?error
+2024-10-17 15:52:11 DEBUG o.s.security.web.FilterChainProxy - Securing POST /login
+2024-10-17 15:52:11 DEBUG o.s.s.l.a.PasswordComparisonAuthenticator - Failed to retrieve user with any user DNs []
+2024-10-17 15:52:11 DEBUG o.s.s.l.SpringSecurityLdapTemplate - Found DN: uid=ben,ou=people,dc=test,dc=bpab,dc=internal
+2024-10-17 15:52:11 DEBUG o.s.s.l.s.FilterBasedLdapUserSearch - Found user 'ben', with FilterBasedLdapUserSearch [searchFilter=(uid={0}); searchBase=dc=test,dc=bpab,dc=internal; scope=subtree; searchTimeLimit=0; derefLinkFlag=false ]
+2024-10-17 15:52:11 DEBUG o.s.s.l.a.PasswordComparisonAuthenticator - Locally matched password attribute 'userPassword' for user 'uid=ben,ou=people,dc=test,dc=bpab,dc=internal'
+2024-10-17 15:52:11 DEBUG o.s.security.web.FilterChainProxy - Securing POST /error
+2024-10-17 15:52:11 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-10-17 15:52:11 DEBUG o.s.s.web.DefaultRedirectStrategy - Redirecting to http://127.0.0.1:8080/login
+2024-10-17 15:52:11 DEBUG o.s.security.web.FilterChainProxy - Securing GET /login
+2024-10-17 15:52:20 INFO  o.s.s.l.DefaultSpringSecurityContextSource - Configure with URL ldap://localhost:8389/ and root DN 
+2024-10-17 15:52:20 WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-10-17 15:52:21 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6c8fe7a4, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2047981, org.springframework.security.web.context.SecurityContextHolderFilter@63f6bed1, org.springframework.security.web.header.HeaderWriterFilter@32f5ecc4, org.springframework.web.filter.CorsFilter@2ad99cf3, org.springframework.security.web.csrf.CsrfFilter@5e230fc6, org.springframework.security.web.authentication.logout.LogoutFilter@2349f14d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@75d366c2, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@327e5be5, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@6f31df32, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@115ca7de, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7f287b98, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7c90b7b7, org.springframework.security.web.access.ExceptionTranslationFilter@7ccfdaef, org.springframework.security.web.access.intercept.AuthorizationFilter@456f7d9e]
+2024-10-17 15:52:36 DEBUG o.s.security.web.FilterChainProxy - Securing POST /login
+2024-10-17 15:52:36 DEBUG o.s.security.web.csrf.CsrfFilter - Invalid CSRF token found for http://127.0.0.1:8080/login
+2024-10-17 15:52:36 DEBUG o.s.s.w.a.AccessDeniedHandlerImpl - Responding with 403 status code
+2024-10-17 15:52:36 DEBUG o.s.security.web.FilterChainProxy - Securing POST /error
+2024-10-17 15:52:36 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-10-17 15:52:36 DEBUG o.s.s.web.DefaultRedirectStrategy - Redirecting to http://127.0.0.1:8080/login
+2024-10-17 15:52:36 DEBUG o.s.security.web.FilterChainProxy - Securing GET /login
+2024-10-17 15:52:46 DEBUG o.s.security.web.FilterChainProxy - Securing POST /login
+2024-10-17 15:52:46 DEBUG o.s.s.l.a.PasswordComparisonAuthenticator - Failed to retrieve user with any user DNs []
+2024-10-17 15:52:46 DEBUG o.s.s.l.SpringSecurityLdapTemplate - Found DN: uid=ben,ou=people,dc=test,dc=bpab,dc=internal
+2024-10-17 15:52:46 DEBUG o.s.s.l.s.FilterBasedLdapUserSearch - Found user 'ben', with FilterBasedLdapUserSearch [searchFilter=(uid={0}); searchBase=dc=test,dc=bpab,dc=internal; scope=subtree; searchTimeLimit=0; derefLinkFlag=false ]
+2024-10-17 15:52:46 DEBUG o.s.s.l.a.PasswordComparisonAuthenticator - Locally matched password attribute 'userPassword' for user 'uid=ben,ou=people,dc=test,dc=bpab,dc=internal'
+2024-10-17 15:52:46 DEBUG o.s.security.web.FilterChainProxy - Securing POST /error
+2024-10-17 15:52:46 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-10-17 15:52:46 DEBUG o.s.s.web.DefaultRedirectStrategy - Redirecting to http://127.0.0.1:8080/login
+2024-10-17 15:52:46 DEBUG o.s.security.web.FilterChainProxy - Securing GET /login
+2024-10-17 15:53:17 DEBUG o.s.security.web.FilterChainProxy - Securing POST /login
+2024-10-17 15:53:17 DEBUG o.s.s.l.a.PasswordComparisonAuthenticator - Failed to retrieve user with any user DNs []
+2024-10-17 15:53:17 DEBUG o.s.s.l.SpringSecurityLdapTemplate - Found DN: uid=ben,ou=people,dc=test,dc=bpab,dc=internal
+2024-10-17 15:53:17 DEBUG o.s.s.l.s.FilterBasedLdapUserSearch - Found user 'ben', with FilterBasedLdapUserSearch [searchFilter=(uid={0}); searchBase=dc=test,dc=bpab,dc=internal; scope=subtree; searchTimeLimit=0; derefLinkFlag=false ]
+2024-10-17 15:53:17 DEBUG o.s.s.l.a.PasswordComparisonAuthenticator - Locally matched password attribute 'userPassword' for user 'uid=ben,ou=people,dc=test,dc=bpab,dc=internal'
+2024-10-17 15:53:17 DEBUG o.s.security.web.FilterChainProxy - Securing POST /error
+2024-10-17 15:53:17 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-10-17 15:53:17 DEBUG o.s.s.web.DefaultRedirectStrategy - Redirecting to http://127.0.0.1:8080/login
+2024-10-17 15:53:17 DEBUG o.s.security.web.FilterChainProxy - Securing GET /login
+2024-10-17 15:53:57 INFO  o.s.s.l.DefaultSpringSecurityContextSource - Configure with URL ldap://localhost:8389/ and root DN 
+2024-10-17 15:53:57 INFO  o.s.s.l.s.FilterBasedLdapUserSearch - Searches will be performed from the root  since SearchBase not set
+2024-10-17 15:53:57 WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-10-17 15:53:58 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6f31df32, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7c90b7b7, org.springframework.security.web.context.SecurityContextHolderFilter@115ca7de, org.springframework.security.web.header.HeaderWriterFilter@1ba467c2, org.springframework.web.filter.CorsFilter@5d7911d5, org.springframework.security.web.csrf.CsrfFilter@ca8ef3a, org.springframework.security.web.authentication.logout.LogoutFilter@7edb6fca, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6c8fe7a4, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@566f1852, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@3ba1308d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7f287b98, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@32120956, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5a08b084, org.springframework.security.web.access.ExceptionTranslationFilter@32f5ecc4, org.springframework.security.web.access.intercept.AuthorizationFilter@5232e3f1]
+2024-10-17 15:54:40 DEBUG o.s.security.web.FilterChainProxy - Securing POST /login
+2024-10-17 15:54:40 DEBUG o.s.security.web.csrf.CsrfFilter - Invalid CSRF token found for http://127.0.0.1:8080/login
+2024-10-17 15:54:40 DEBUG o.s.s.w.a.AccessDeniedHandlerImpl - Responding with 403 status code
+2024-10-17 15:54:40 DEBUG o.s.security.web.FilterChainProxy - Securing POST /error
+2024-10-17 15:54:40 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-10-17 15:54:40 DEBUG o.s.s.web.DefaultRedirectStrategy - Redirecting to http://127.0.0.1:8080/login
+2024-10-17 15:54:40 DEBUG o.s.security.web.FilterChainProxy - Securing GET /login
+2024-10-17 15:54:51 DEBUG o.s.security.web.FilterChainProxy - Securing POST /login
+2024-10-17 15:54:51 DEBUG o.s.s.l.a.PasswordComparisonAuthenticator - Failed to retrieve user with any user DNs []
+2024-10-17 15:54:51 DEBUG o.s.s.l.SpringSecurityLdapTemplate - Found DN: uid=ben,ou=people,dc=test,dc=bpab,dc=internal
+2024-10-17 15:54:51 DEBUG o.s.s.l.s.FilterBasedLdapUserSearch - Found user 'ben', with FilterBasedLdapUserSearch [searchFilter=(uid={0}); searchBase=; scope=subtree; searchTimeLimit=0; derefLinkFlag=false ]
+2024-10-17 15:54:51 DEBUG o.s.s.l.a.PasswordComparisonAuthenticator - Locally matched password attribute 'userPassword' for user 'uid=ben,ou=people,dc=test,dc=bpab,dc=internal'
+2024-10-17 15:54:51 DEBUG o.s.security.web.FilterChainProxy - Securing POST /error
+2024-10-17 15:54:51 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-10-17 15:54:51 DEBUG o.s.s.web.DefaultRedirectStrategy - Redirecting to http://127.0.0.1:8080/login
+2024-10-17 15:54:51 DEBUG o.s.security.web.FilterChainProxy - Securing GET /login
+2024-10-17 15:55:07 DEBUG o.s.security.web.FilterChainProxy - Securing POST /login
+2024-10-17 15:55:07 DEBUG o.s.s.l.a.PasswordComparisonAuthenticator - Failed to retrieve user with any user DNs []
+2024-10-17 15:55:07 DEBUG o.s.s.l.SpringSecurityLdapTemplate - Found DN: uid=dkuser,ou=DK-U,ou=8,dc=test,dc=bpab,dc=internal
+2024-10-17 15:55:07 DEBUG o.s.s.l.s.FilterBasedLdapUserSearch - Found user 'dkuser', with FilterBasedLdapUserSearch [searchFilter=(uid={0}); searchBase=; scope=subtree; searchTimeLimit=0; derefLinkFlag=false ]
+2024-10-17 15:55:07 WARN  o.s.s.c.bcrypt.BCryptPasswordEncoder - Encoded password does not look like BCrypt
+2024-10-17 15:55:07 DEBUG o.s.s.web.DefaultRedirectStrategy - Redirecting to /login?error
+2024-10-17 15:55:07 DEBUG o.s.security.web.FilterChainProxy - Securing GET /login?error
+2024-10-17 15:56:41 INFO  o.s.s.l.DefaultSpringSecurityContextSource - Configure with URL ldap://localhost:8389/ and root DN 
+2024-10-17 15:56:41 INFO  o.s.s.l.s.FilterBasedLdapUserSearch - Searches will be performed from the root  since SearchBase not set
+2024-10-17 15:56:41 WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-10-17 15:56:42 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1b7f06c7, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@151732fb, org.springframework.security.web.context.SecurityContextHolderFilter@1b90fee4, org.springframework.security.web.header.HeaderWriterFilter@566f1852, org.springframework.web.filter.CorsFilter@729c8063, org.springframework.security.web.csrf.CsrfFilter@664212ab, org.springframework.security.web.authentication.logout.LogoutFilter@609319c3, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5c6a5192, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@75b38c36, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@40ed1802, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4978777f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@67bd351e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@23c767e6, org.springframework.security.web.access.ExceptionTranslationFilter@327e5be5, org.springframework.security.web.access.intercept.AuthorizationFilter@1b3ab4f9]
+2024-10-17 15:56:52 DEBUG o.s.security.web.FilterChainProxy - Securing POST /login
+2024-10-17 15:56:52 DEBUG o.s.security.web.csrf.CsrfFilter - Invalid CSRF token found for http://127.0.0.1:8080/login
+2024-10-17 15:56:52 DEBUG o.s.s.w.a.AccessDeniedHandlerImpl - Responding with 403 status code
+2024-10-17 15:56:52 DEBUG o.s.security.web.FilterChainProxy - Securing POST /error
+2024-10-17 15:56:52 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-10-17 15:56:52 DEBUG o.s.s.web.DefaultRedirectStrategy - Redirecting to http://127.0.0.1:8080/login
+2024-10-17 15:56:52 DEBUG o.s.security.web.FilterChainProxy - Securing GET /login
+2024-10-17 15:56:58 DEBUG o.s.security.web.FilterChainProxy - Securing GET /login
+2024-10-17 15:56:58 DEBUG o.s.security.web.FilterChainProxy - Securing GET /favicon.ico
+2024-10-17 15:56:58 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-10-17 15:56:58 DEBUG o.s.s.web.DefaultRedirectStrategy - Redirecting to http://127.0.0.1:8080/login
+2024-10-17 15:56:58 DEBUG o.s.security.web.FilterChainProxy - Securing GET /login
+2024-10-17 15:57:06 DEBUG o.s.security.web.FilterChainProxy - Securing POST /login
+2024-10-17 15:57:06 DEBUG o.s.s.l.a.PasswordComparisonAuthenticator - Failed to retrieve user with any user DNs []
+2024-10-17 15:57:06 DEBUG o.s.s.l.SpringSecurityLdapTemplate - Found DN: uid=dkuser,ou=DK-U,ou=8,dc=test,dc=bpab,dc=internal
+2024-10-17 15:57:06 DEBUG o.s.s.l.s.FilterBasedLdapUserSearch - Found user 'dkuser', with FilterBasedLdapUserSearch [searchFilter=(uid={0}); searchBase=; scope=subtree; searchTimeLimit=0; derefLinkFlag=false ]
+2024-10-17 15:57:06 DEBUG o.s.s.l.a.PasswordComparisonAuthenticator - Locally matched password attribute 'userPassword' for user 'uid=dkuser,ou=DK-U,ou=8,dc=test,dc=bpab,dc=internal'
+2024-10-17 15:57:06 DEBUG o.s.security.web.FilterChainProxy - Securing POST /error
+2024-10-17 15:57:06 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-10-17 15:57:06 DEBUG o.s.s.web.DefaultRedirectStrategy - Redirecting to http://127.0.0.1:8080/login
+2024-10-17 15:57:06 DEBUG o.s.security.web.FilterChainProxy - Securing GET /login
+2024-10-17 15:57:06 DEBUG o.s.security.web.FilterChainProxy - Securing GET /favicon.ico
+2024-10-17 15:57:06 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-10-17 15:57:06 DEBUG o.s.s.web.DefaultRedirectStrategy - Redirecting to http://127.0.0.1:8080/login
+2024-10-17 15:57:06 DEBUG o.s.security.web.FilterChainProxy - Securing GET /login
+2024-10-17 15:57:39 INFO  o.s.s.l.DefaultSpringSecurityContextSource - Configure with URL ldap://localhost:8389/ and root DN 
+2024-10-17 15:57:39 INFO  o.s.s.l.s.FilterBasedLdapUserSearch - Searches will be performed from the root  since SearchBase not set
+2024-10-17 15:57:39 WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-10-17 15:57:39 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@315c081, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6b2dd3df, org.springframework.security.web.context.SecurityContextHolderFilter@6bbab114, org.springframework.security.web.header.HeaderWriterFilter@144ab983, org.springframework.web.filter.CorsFilter@4db77402, org.springframework.security.web.csrf.CsrfFilter@67bd351e, org.springframework.security.web.authentication.logout.LogoutFilter@5f7eee96, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@310b2b6f, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@38291795, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@73c48264, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@25be445f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6397248c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5ef85555, org.springframework.security.web.access.ExceptionTranslationFilter@706ddbc8, org.springframework.security.web.access.intercept.AuthorizationFilter@6661d8c0]
+2024-10-17 15:57:49 DEBUG o.s.security.web.FilterChainProxy - Securing GET /login
+2024-10-17 15:57:50 DEBUG o.s.security.web.FilterChainProxy - Securing GET /favicon.ico
+2024-10-17 15:57:50 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-10-17 15:57:50 DEBUG o.s.s.web.DefaultRedirectStrategy - Redirecting to http://127.0.0.1:8080/login
+2024-10-17 15:57:50 DEBUG o.s.security.web.FilterChainProxy - Securing GET /login
+2024-10-17 15:57:55 DEBUG o.s.security.web.FilterChainProxy - Securing POST /login
+2024-10-17 15:57:55 DEBUG o.s.s.l.a.PasswordComparisonAuthenticator - Failed to retrieve user with any user DNs []
+2024-10-17 15:57:55 DEBUG o.s.s.l.SpringSecurityLdapTemplate - Found DN: uid=ben,ou=people,dc=test,dc=bpab,dc=internal
+2024-10-17 15:57:55 DEBUG o.s.s.l.s.FilterBasedLdapUserSearch - Found user 'ben', with FilterBasedLdapUserSearch [searchFilter=(uid={0}); searchBase=; scope=subtree; searchTimeLimit=0; derefLinkFlag=false ]
+2024-10-17 15:57:55 DEBUG o.s.s.l.a.PasswordComparisonAuthenticator - Locally matched password attribute 'userPassword' for user 'uid=ben,ou=people,dc=test,dc=bpab,dc=internal'
+2024-10-17 15:57:55 DEBUG o.s.security.web.FilterChainProxy - Securing POST /error
+2024-10-17 15:57:55 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-10-17 15:57:55 DEBUG o.s.s.web.DefaultRedirectStrategy - Redirecting to http://127.0.0.1:8080/login
+2024-10-17 15:57:56 DEBUG o.s.security.web.FilterChainProxy - Securing GET /login
+2024-10-17 15:57:56 DEBUG o.s.security.web.FilterChainProxy - Securing GET /favicon.ico
+2024-10-17 15:57:56 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-10-17 15:57:56 DEBUG o.s.s.web.DefaultRedirectStrategy - Redirecting to http://127.0.0.1:8080/login
+2024-10-17 15:57:56 DEBUG o.s.security.web.FilterChainProxy - Securing GET /login
+2024-10-17 15:58:14 INFO  o.s.s.l.DefaultSpringSecurityContextSource - Configure with URL ldap://localhost:8389/dc=test,dc=bpab,dc=internal and root DN dc=test,dc=bpab,dc=internal
+2024-10-17 15:58:14 INFO  o.s.s.l.s.FilterBasedLdapUserSearch - Searches will be performed from the root dc=test,dc=bpab,dc=internal since SearchBase not set
+2024-10-17 15:58:14 WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-10-17 15:58:14 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@100ad67e, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@713a35c5, org.springframework.security.web.context.SecurityContextHolderFilter@53f0d09c, org.springframework.security.web.header.HeaderWriterFilter@1450131a, org.springframework.web.filter.CorsFilter@62aeddc8, org.springframework.security.web.csrf.CsrfFilter@25f61c2c, org.springframework.security.web.authentication.logout.LogoutFilter@60f21960, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6ad1701a, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@73fbdf68, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@11787b64, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6f8e9d06, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2272cbb0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5707f613, org.springframework.security.web.access.ExceptionTranslationFilter@7944b8b4, org.springframework.security.web.access.intercept.AuthorizationFilter@519c6fcc]
+2024-10-17 15:58:21 DEBUG o.s.security.web.FilterChainProxy - Securing GET /login
+2024-10-17 15:58:21 DEBUG o.s.security.web.FilterChainProxy - Securing GET /favicon.ico
+2024-10-17 15:58:21 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-10-17 15:58:21 DEBUG o.s.s.web.DefaultRedirectStrategy - Redirecting to http://127.0.0.1:8080/login
+2024-10-17 15:58:21 DEBUG o.s.security.web.FilterChainProxy - Securing GET /login
+2024-10-17 15:58:29 DEBUG o.s.security.web.FilterChainProxy - Securing POST /login
+2024-10-17 15:58:29 DEBUG o.s.s.l.a.PasswordComparisonAuthenticator - Failed to retrieve user with any user DNs []
+2024-10-17 15:58:29 DEBUG o.s.s.l.SpringSecurityLdapTemplate - Found DN: uid=ben,ou=people
+2024-10-17 15:58:29 DEBUG o.s.s.l.s.FilterBasedLdapUserSearch - Found user 'ben', with FilterBasedLdapUserSearch [searchFilter=(uid={0}); searchBase=; scope=subtree; searchTimeLimit=0; derefLinkFlag=false ]
+2024-10-17 15:58:29 DEBUG o.s.s.l.a.PasswordComparisonAuthenticator - Locally matched password attribute 'userPassword' for user 'uid=ben,ou=people'
+2024-10-17 15:58:29 DEBUG o.s.security.web.FilterChainProxy - Securing POST /error
+2024-10-17 15:58:29 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-10-17 15:58:29 DEBUG o.s.s.web.DefaultRedirectStrategy - Redirecting to http://127.0.0.1:8080/login
+2024-10-17 15:58:29 DEBUG o.s.security.web.FilterChainProxy - Securing GET /login
+2024-10-17 15:58:29 DEBUG o.s.security.web.FilterChainProxy - Securing GET /favicon.ico
+2024-10-17 15:58:29 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-10-17 15:58:29 DEBUG o.s.s.web.DefaultRedirectStrategy - Redirecting to http://127.0.0.1:8080/login
+2024-10-17 15:58:29 DEBUG o.s.security.web.FilterChainProxy - Securing GET /login
+2024-10-17 15:58:55 INFO  o.s.s.l.DefaultSpringSecurityContextSource - Configure with URL ldap://localhost:8389/dc=test,dc=bpab,dc=internal and root DN dc=test,dc=bpab,dc=internal
+2024-10-17 15:58:55 INFO  o.s.s.l.s.FilterBasedLdapUserSearch - Searches will be performed from the root dc=test,dc=bpab,dc=internal since SearchBase not set
+2024-10-17 15:58:55 INFO  o.s.s.l.u.DefaultLdapAuthoritiesPopulator - Will perform group search from the context source base since groupSearchBase is empty.
+2024-10-17 15:58:55 WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-10-17 15:58:55 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5382184b, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@77cb452c, org.springframework.security.web.context.SecurityContextHolderFilter@467b0f6e, org.springframework.security.web.header.HeaderWriterFilter@1c93b51e, org.springframework.web.filter.CorsFilter@2213639b, org.springframework.security.web.csrf.CsrfFilter@3e3cd6fe, org.springframework.security.web.authentication.logout.LogoutFilter@19bedeb8, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@46fc522d, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@511f5b1d, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@2c26ba07, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@420cd102, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@12e12ac9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6f25bf88, org.springframework.security.web.access.ExceptionTranslationFilter@7f353a0f, org.springframework.security.web.access.intercept.AuthorizationFilter@61cda923]
+2024-10-17 16:14:50 INFO  o.s.s.l.DefaultSpringSecurityContextSource - Configure with URL ldap://localhost:8389/dc=test,dc=bpab,dc=internal and root DN dc=test,dc=bpab,dc=internal
+2024-10-17 16:14:50 WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-10-17 16:14:50 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1b3ab4f9, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5c6a5192, org.springframework.security.web.context.SecurityContextHolderFilter@1084ac45, org.springframework.security.web.header.HeaderWriterFilter@6975fb1c, org.springframework.web.filter.CorsFilter@1c8f6c66, org.springframework.security.web.csrf.CsrfFilter@7ba93755, org.springframework.security.web.authentication.logout.LogoutFilter@706ddbc8, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@235c997d, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@4cc7d00d, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@552cede7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6ea246af, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1b90fee4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1b7f06c7, org.springframework.security.web.access.ExceptionTranslationFilter@4684240f, org.springframework.security.web.access.intercept.AuthorizationFilter@5a08b084]
+2024-10-17 16:15:03 DEBUG o.s.security.web.FilterChainProxy - Securing POST /login
+2024-10-17 16:15:03 DEBUG o.s.security.web.csrf.CsrfFilter - Invalid CSRF token found for http://127.0.0.1:8080/login
+2024-10-17 16:15:03 DEBUG o.s.s.w.a.AccessDeniedHandlerImpl - Responding with 403 status code
+2024-10-17 16:15:03 DEBUG o.s.security.web.FilterChainProxy - Securing POST /error
+2024-10-17 16:15:03 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-10-17 16:15:03 DEBUG o.s.s.web.DefaultRedirectStrategy - Redirecting to http://127.0.0.1:8080/login
+2024-10-17 16:15:03 DEBUG o.s.security.web.FilterChainProxy - Securing GET /login
+2024-10-17 16:15:03 DEBUG o.s.security.web.FilterChainProxy - Securing GET /favicon.ico
+2024-10-17 16:15:03 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-10-17 16:15:03 DEBUG o.s.s.web.DefaultRedirectStrategy - Redirecting to http://127.0.0.1:8080/login
+2024-10-17 16:15:03 DEBUG o.s.security.web.FilterChainProxy - Securing GET /login
+2024-10-17 16:16:01 DEBUG o.s.security.web.FilterChainProxy - Securing POST /login
+2024-10-17 16:16:01 DEBUG o.s.s.l.a.PasswordComparisonAuthenticator - Failed to retrieve user with any user DNs []
+2024-10-17 16:16:01 DEBUG o.s.s.a.DefaultAuthenticationEventPublisher - No event was found for the exception org.springframework.security.authentication.InternalAuthenticationServiceException
+2024-10-17 16:16:01 ERROR o.s.s.w.a.UsernamePasswordAuthenticationFilter - An internal error occurred while trying to authenticate the user.
+org.springframework.security.authentication.InternalAuthenticationServiceException: [LDAP: error code 32 - Unable to perform the search because base entry 'dc=test,dc=bpab,dc=internal,dc=test,dc=bpab,dc=internal' does not exist in the server.]
+	at org.springframework.security.ldap.authentication.LdapAuthenticationProvider.doAuthentication(LdapAuthenticationProvider.java:190)
+	at org.springframework.security.ldap.authentication.AbstractLdapAuthenticationProvider.authenticate(AbstractLdapAuthenticationProvider.java:79)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:182)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:201)
+	at org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter.attemptAuthentication(UsernamePasswordAuthenticationFilter.java:85)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:231)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:221)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:131)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:195)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:230)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.springframework.ldap.NameNotFoundException: [LDAP: error code 32 - Unable to perform the search because base entry 'dc=test,dc=bpab,dc=internal,dc=test,dc=bpab,dc=internal' does not exist in the server.]
+	at org.springframework.ldap.support.LdapUtils.convertLdapException(LdapUtils.java:185)
+	at org.springframework.ldap.core.LdapTemplate.executeWithContext(LdapTemplate.java:807)
+	at org.springframework.ldap.core.LdapTemplate.executeReadOnly(LdapTemplate.java:790)
+	at org.springframework.security.ldap.SpringSecurityLdapTemplate.searchForSingleEntry(SpringSecurityLdapTemplate.java:260)
+	at org.springframework.security.ldap.search.FilterBasedLdapUserSearch.searchForUser(FilterBasedLdapUserSearch.java:100)
+	at org.springframework.security.ldap.authentication.PasswordComparisonAuthenticator.authenticate(PasswordComparisonAuthenticator.java:90)
+	at org.springframework.security.ldap.authentication.LdapAuthenticationProvider.doAuthentication(LdapAuthenticationProvider.java:174)
+	... 68 common frames omitted
+Caused by: javax.naming.NameNotFoundException: [LDAP: error code 32 - Unable to perform the search because base entry 'dc=test,dc=bpab,dc=internal,dc=test,dc=bpab,dc=internal' does not exist in the server.]
+	at java.naming/com.sun.jndi.ldap.LdapCtx.mapErrorCode(LdapCtx.java:3285)
+	at java.naming/com.sun.jndi.ldap.LdapCtx.processReturnCode(LdapCtx.java:3206)
+	at java.naming/com.sun.jndi.ldap.LdapCtx.processReturnCode(LdapCtx.java:2997)
+	at java.naming/com.sun.jndi.ldap.LdapCtx.searchAux(LdapCtx.java:1876)
+	at java.naming/com.sun.jndi.ldap.LdapCtx.c_search(LdapCtx.java:1799)
+	at java.naming/com.sun.jndi.ldap.LdapCtx.c_search(LdapCtx.java:1816)
+	at java.naming/com.sun.jndi.toolkit.ctx.ComponentDirContext.p_search(ComponentDirContext.java:418)
+	at java.naming/com.sun.jndi.toolkit.ctx.PartialCompositeDirContext.search(PartialCompositeDirContext.java:396)
+	at java.naming/javax.naming.directory.InitialDirContext.search(InitialDirContext.java:388)
+	at org.springframework.security.ldap.SpringSecurityLdapTemplate.searchForSingleEntryInternal(SpringSecurityLdapTemplate.java:271)
+	at org.springframework.security.ldap.SpringSecurityLdapTemplate.lambda$searchForSingleEntry$3(SpringSecurityLdapTemplate.java:260)
+	at org.springframework.ldap.core.LdapTemplate.executeWithContext(LdapTemplate.java:804)
+	... 73 common frames omitted
+2024-10-17 16:16:01 DEBUG o.s.s.web.DefaultRedirectStrategy - Redirecting to /login?error
+2024-10-17 16:16:01 DEBUG o.s.security.web.FilterChainProxy - Securing GET /login?error
+2024-10-17 16:16:01 DEBUG o.s.security.web.FilterChainProxy - Securing GET /favicon.ico
+2024-10-17 16:16:01 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-10-17 16:16:01 DEBUG o.s.s.web.DefaultRedirectStrategy - Redirecting to http://127.0.0.1:8080/login
+2024-10-17 16:16:01 DEBUG o.s.security.web.FilterChainProxy - Securing GET /login
+2024-10-17 16:16:24 INFO  o.s.s.l.DefaultSpringSecurityContextSource - Configure with URL ldap://localhost:8389 and root DN 
+2024-10-17 16:16:24 WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-10-17 16:16:24 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@19e21f89, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@31e739bf, org.springframework.security.web.context.SecurityContextHolderFilter@4978777f, org.springframework.security.web.header.HeaderWriterFilter@2e4389ed, org.springframework.web.filter.CorsFilter@29079032, org.springframework.security.web.csrf.CsrfFilter@3443e476, org.springframework.security.web.authentication.logout.LogoutFilter@2a7d9b41, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@40ed1802, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@2349f14d, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@7e7743ec, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@67bd351e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@468e8565, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@776015fc, org.springframework.security.web.access.ExceptionTranslationFilter@566f1852, org.springframework.security.web.access.intercept.AuthorizationFilter@729c8063]
+2024-10-17 16:17:16 INFO  o.s.s.l.DefaultSpringSecurityContextSource - Configure with URL ldap://localhost:8389 and root DN 
+2024-10-17 16:17:17 WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-10-17 16:17:17 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@8c12524, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@f723cdb, org.springframework.security.web.context.SecurityContextHolderFilter@388c519, org.springframework.security.web.header.HeaderWriterFilter@1a1ccaaf, org.springframework.web.filter.CorsFilter@4844930a, org.springframework.security.web.csrf.CsrfFilter@515b9d4a, org.springframework.security.web.authentication.logout.LogoutFilter@52f6900a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@149274cb, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@594131f2, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@11f23203, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@198536f6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3a38f122, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@101bdd1c, org.springframework.security.web.access.ExceptionTranslationFilter@43471a7e, org.springframework.security.web.access.intercept.AuthorizationFilter@9fe720a]
+2024-10-17 16:17:22 DEBUG o.s.security.web.FilterChainProxy - Securing GET /login?error
+2024-10-17 16:17:22 DEBUG o.s.security.web.FilterChainProxy - Securing GET /favicon.ico
+2024-10-17 16:17:22 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-10-17 16:17:22 DEBUG o.s.s.web.DefaultRedirectStrategy - Redirecting to http://127.0.0.1:8080/login
+2024-10-17 16:17:22 DEBUG o.s.security.web.FilterChainProxy - Securing GET /login
+2024-10-17 16:17:44 DEBUG o.s.security.web.FilterChainProxy - Securing GET /login?error
+2024-10-17 16:17:45 DEBUG o.s.security.web.FilterChainProxy - Securing GET /favicon.ico
+2024-10-17 16:17:45 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-10-17 16:17:45 DEBUG o.s.s.web.DefaultRedirectStrategy - Redirecting to http://127.0.0.1:8080/login
+2024-10-17 16:17:45 DEBUG o.s.security.web.FilterChainProxy - Securing GET /login
+2024-10-17 16:17:46 DEBUG o.s.security.web.FilterChainProxy - Securing GET /
+2024-10-17 16:17:46 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-10-17 16:17:46 DEBUG o.s.s.w.s.HttpSessionRequestCache - Saved request http://127.0.0.1:8080/?continue to session
+2024-10-17 16:17:46 DEBUG o.s.s.web.DefaultRedirectStrategy - Redirecting to http://127.0.0.1:8080/login
+2024-10-17 16:17:46 DEBUG o.s.security.web.FilterChainProxy - Securing GET /login
+2024-10-17 16:17:47 DEBUG o.s.security.web.FilterChainProxy - Securing GET /favicon.ico
+2024-10-17 16:17:47 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-10-17 16:17:47 DEBUG o.s.s.web.DefaultRedirectStrategy - Redirecting to http://127.0.0.1:8080/login
+2024-10-17 16:17:47 DEBUG o.s.security.web.FilterChainProxy - Securing GET /login
+2024-10-17 16:17:54 DEBUG o.s.security.web.FilterChainProxy - Securing POST /login
+2024-10-17 16:17:54 DEBUG o.s.s.l.a.PasswordComparisonAuthenticator - Failed to retrieve user with any user DNs []
+2024-10-17 16:17:55 DEBUG o.s.s.l.SpringSecurityLdapTemplate - Found DN: uid=dkuser,ou=DK-U,ou=8,dc=test,dc=bpab,dc=internal
+2024-10-17 16:17:55 DEBUG o.s.s.l.s.FilterBasedLdapUserSearch - Found user 'dkuser', with FilterBasedLdapUserSearch [searchFilter=(uid={0}); searchBase=dc=test,dc=bpab,dc=internal; scope=subtree; searchTimeLimit=0; derefLinkFlag=false ]
+2024-10-17 16:17:55 WARN  o.s.s.c.bcrypt.BCryptPasswordEncoder - Encoded password does not look like BCrypt
+2024-10-17 16:17:55 DEBUG o.s.s.web.DefaultRedirectStrategy - Redirecting to /login?error
+2024-10-17 16:17:55 DEBUG o.s.security.web.FilterChainProxy - Securing GET /login?error
+2024-10-17 16:17:55 DEBUG o.s.security.web.FilterChainProxy - Securing GET /favicon.ico
+2024-10-17 16:17:55 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-10-17 16:17:55 DEBUG o.s.s.web.DefaultRedirectStrategy - Redirecting to http://127.0.0.1:8080/login
+2024-10-17 16:17:55 DEBUG o.s.security.web.FilterChainProxy - Securing GET /login
+2024-10-17 16:18:34 INFO  o.s.s.l.DefaultSpringSecurityContextSource - Configure with URL ldap://localhost:8389 and root DN 
+2024-10-17 16:18:34 WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-10-17 16:18:34 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1c8f6c66, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@552cede7, org.springframework.security.web.context.SecurityContextHolderFilter@1b90fee4, org.springframework.security.web.header.HeaderWriterFilter@566f1852, org.springframework.web.filter.CorsFilter@1b7f06c7, org.springframework.security.web.csrf.CsrfFilter@664212ab, org.springframework.security.web.authentication.logout.LogoutFilter@609319c3, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4a9a878, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@75b38c36, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@151732fb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4978777f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@67bd351e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@729c8063, org.springframework.security.web.access.ExceptionTranslationFilter@327e5be5, org.springframework.security.web.access.intercept.AuthorizationFilter@36bed37a]
+2024-10-17 16:18:40 DEBUG o.s.security.web.FilterChainProxy - Securing GET /
+2024-10-17 16:18:40 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-10-17 16:18:40 DEBUG o.s.s.w.s.HttpSessionRequestCache - Saved request http://127.0.0.1:8080/?continue to session
+2024-10-17 16:18:40 DEBUG o.s.s.web.DefaultRedirectStrategy - Redirecting to http://127.0.0.1:8080/login
+2024-10-17 16:18:40 DEBUG o.s.security.web.FilterChainProxy - Securing GET /login
+2024-10-17 16:18:40 DEBUG o.s.security.web.FilterChainProxy - Securing GET /favicon.ico
+2024-10-17 16:18:40 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-10-17 16:18:40 DEBUG o.s.s.web.DefaultRedirectStrategy - Redirecting to http://127.0.0.1:8080/login
+2024-10-17 16:18:40 DEBUG o.s.security.web.FilterChainProxy - Securing GET /login

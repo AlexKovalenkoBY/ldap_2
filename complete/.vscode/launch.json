@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-AuthenticatingLdapApplication<authenticating-ldap-complete>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.example.authenticatingldap.AuthenticatingLdapApplication",
+            "projectName": "authenticating-ldap-complete",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
