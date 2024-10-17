@@ -12,6 +12,7 @@ import org.springframework.security.core.annotation.AuthenticationPrincipal;
 @RestController
 public class HomeController {
 
+	
 	@GetMapping("/")
 	public String index(Authentication authentication, @AuthenticationPrincipal Person person) {
 		// String person1  = person.getSn();
@@ -23,5 +24,4 @@ public class HomeController {
 	public String hello(@AuthenticationPrincipal Person person) {
 		return "Hello, " + person.getSn() + "!!";
 	}
-
 }

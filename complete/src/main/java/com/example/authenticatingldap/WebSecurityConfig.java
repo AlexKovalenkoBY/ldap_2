@@ -3,26 +3,39 @@ package com.example.authenticatingldap;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
+import org.springframework.security.config.http.SessionCreationPolicy;
+import org.springframework.security.core.userdetails.UserDetailsService;
+import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.config.Customizer;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.security.ldap.userdetails.LdapUserDetailsService;
 import org.springframework.security.web.SecurityFilterChain;
+import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.beans.factory.annotation.Autowired;
+
 
 
 @Configuration
 public class WebSecurityConfig {
 
-	@Bean
-	public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
-		http
-			.authorizeHttpRequests((authorize) -> authorize
-				.anyRequest().fullyAuthenticated()
-			)
-			.formLogin(Customizer.withDefaults());
+    @Autowired
+    private JwtRequestFilter jwtRequestFilter;
+    @Bean
+    public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
+        http
+            
+            .authorizeHttpRequests((authorize) -> authorize
+                .requestMatchers("/api/auth/login").permitAll()
+                .anyRequest().authenticated()
+            )
+            .sessionManagement((session) -> session
+                .sessionCreationPolicy(SessionCreationPolicy.STATELESS)
+            )
+            .addFilterBefore(jwtRequestFilter, UsernamePasswordAuthenticationFilter.class);
 
-		return http.build();
-	}
+        return http.build();
+    }
 
 	@Autowired
 	public void configure(AuthenticationManagerBuilder auth) throws Exception {
@@ -39,6 +52,10 @@ public class WebSecurityConfig {
 				// .passwordEncoder(new BCryptPasswordEncoder())
 				.passwordAttribute("userPassword");
 	}
+    @Bean
+    public AuthenticationManager authenticationManager(AuthenticationManagerBuilder auth) throws Exception {
+        return auth.build();
+    }
 
 }
 
