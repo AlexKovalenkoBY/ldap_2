@@ -1,0 +1,6 @@
+https://medium.com/@vino7tech/comprehensive-guide-to-setting-up-jwt-authentication-and-authorization-in-a-spring-boot-application-e080c4dd580a
+https://medium.com/@victoronu/implementing-jwt-authentication-in-a-simple-spring-boot-application-with-java-b3135dbdb17b
+https://www.baeldung.com/jwt-deprecated-setsigningkey
+
+
+https://www.google.com/search?q=spring-boot+jwts+example+&sca_esv=987a2e6060705a91&rlz=1C1GCEA_enBY1037BY1037&biw=1745&bih=859&tbs=qdr%3Am&sxsrf=ADLYWII-LfjW1gPmMEulPpPJAp5BRO2ZYQ%3A1729255641267&ei=2VgSZ_T6D8PUwPAP_KaZ2AY&ved=0ahUKEwi0y-Sh-5eJAxVDKhAIHXxTBmsQ4dUDCA8&uact=5&oq=spring-boot+jwts+example+&gs_lp=Egxnd3Mtd2l6LXNlcnAiGXNwcmluZy1ib290IGp3dHMgZXhhbXBsZSAyCBAhGKABGMMESOEvUMEIWOYrcAF4AJABAJgBkwGgAdMJqgEEMC4xMLgBA8gBAPgBAZgCCqAC6AnCAgUQIRigAcICCBAAGIAEGKIEwgIEECEYFcICBxAhGKABGAqYAwCIBgGSBwQwLjEwoAeeIQ&sclient=gws-wiz-serp
