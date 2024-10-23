@@ -38,6 +38,7 @@ public class WebSecurityConfig {
 			.passwordCompare()
 				// .passwordEncoder(new BCryptPasswordEncoder())
 				.passwordAttribute("userPassword");
+				
 	}
 
 }
